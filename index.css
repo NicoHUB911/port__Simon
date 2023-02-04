@@ -1,0 +1,6 @@
+.Contenedor{display: flex; justify-content: center; align-items: center; width: 600px; height: 600px; flex-wrap: wrap; border-radius: 50%; overflow: hidden;}
+.Contenedor__Azul{background: blue; width: 50%; height: 50%;}
+.Contenedor__Rojo{display: block; background: red; width: 50%; height: 50%;}
+.Contenedor__Verde{background: green; width: 50%; height: 50%;}
+.Contenedor__Amarillo{background: yellow; width: 50%; height: 50%;}
+.Contenedor__Inicio{position: absolute; font-size: 20px; color: white;}
