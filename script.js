@@ -11,6 +11,10 @@ const azulbtn = document.querySelector(".Contenedor__Azul");
 const rojobtn = document.querySelector(".Contenedor__Rojo");
 const verdebtn = document.querySelector(".Contenedor__Verde");
 const amarillobtn = document.querySelector(".Contenedor__Amarillo");
+const audio1 = document.querySelector(".audio_1");
+const audio2 = document.querySelector(".audio_2");
+const audio3 = document.querySelector(".audio_3");
+const audio4 = document.querySelector(".audio_4");
 
 //	VARIABLES 
 let comienzo = 0; 
@@ -21,28 +25,28 @@ let cuest = 0;
 rojobtn.addEventListener("click", ()=>{
 	if (comienzo == 0) {
 	}else{
-		// aqui iria el audio ej: a0.play();
+		audio2.play();
 		cuestionario(0);
 	}
 });
 azulbtn.addEventListener("click", ()=>{
 	if (comienzo == 0) {
 	}else{
-		// aqui iria el audio ej: a0.play();
+		audio1.play();
 		cuestionario(1);
 	}
 });
 verdebtn.addEventListener("click", ()=>{
 	if (comienzo == 0) {
 	}else{
-		// aqui iria el audio ej: a0.play();
+		audio3.play();
 		cuestionario(2);
 	}
 });	
 amarillobtn.addEventListener("click", ()=>{
 	if (comienzo == 0) {
 	}else{
-		// aqui iria el audio ej: a0.play();
+		audio4.play();
 		cuestionario(3);
 	}
 });
@@ -75,28 +79,28 @@ function reproductor() {
 		switch(sec[s-1]){
 			case 0:
 				rojobtn.style.opacity = "1";
-				//aqui ira el sonido
+				audio2.play();
 				azulbtn.style.opacity = "0.5";
 				verdebtn.style.opacity = "0.5";
 				amarillobtn.style.opacity = "0.5";
 			break;
 			case 1:
 				azulbtn.style.opacity = "1";
-				//aqui ira el sonido
+				audio1.play();
 				rojobtn.style.opacity = "0.5";
 				verdebtn.style.opacity = "0.5";
 				amarillobtn.style.opacity = "0.5";
 			break;
 			case 2:
 				verdebtn.style.opacity = "1";
-				//aqui ira el sonido
+				audio3.play();
 				rojobtn.style.opacity = "0.5";
 				azulbtn.style.opacity = "0.5";
 				amarillobtn.style.opacity = "0.5";
 			break;
 			case 3:
 				amarillobtn.style.opacity = "1";
-				//aqui ira el sonido
+				audio4.play();
 				verdebtn.style.opacity = "0.5";
 				azulbtn.style.opacity = "0.5";
 				rojobtn.style.opacity = "0.5";
