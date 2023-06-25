@@ -11,10 +11,10 @@ const azulbtn = document.querySelector(".Contenedor__Azul");
 const rojobtn = document.querySelector(".Contenedor__Rojo");
 const verdebtn = document.querySelector(".Contenedor__Verde");
 const amarillobtn = document.querySelector(".Contenedor__Amarillo");
-const audio1 = document.querySelector(".audio_1");
-const audio2 = document.querySelector(".audio_2");
-const audio3 = document.querySelector(".audio_3");
-const audio4 = document.querySelector(".audio_4");
+const audio1 = document.querySelector(".Contenedor__Amarillo__audio_1");
+const audio2 = document.querySelector(".Contenedor__Amarillo__audio_2");
+const audio3 = document.querySelector(".Contenedor__Amarillo__audio_3");
+const audio4 = document.querySelector(".Contenedor__Amarillo__audio_4");
 
 //	VARIABLES 
 let comienzo = 0; 
